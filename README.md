@@ -69,7 +69,7 @@ pnpm kafka:create-topic
 
 ## Overview
 
-- **Request Frequency**: The API is designed to handle 13 requests per second.
+- **Request Frequency**: The API is designed to handle more than 20 requests per second.
 - **Kafka**: Used to queue and manage large volumes of data produced at high frequencies.
 - **PostgreSQL**: Used as the database to store and persist data.
 - **Prisma**: ORM for managing database queries and migrations.
